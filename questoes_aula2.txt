@@ -1,0 +1,6 @@
+Josiel Santos
+
+1 - criando as variaveis, eu peco ao usuario que entre com os dados. Depois disso crio uma condicao  for em que para cada numero de 1 ate 10 ele imprima na tela o valor da tabuada (formatando segundo uma tabuada tradicional) se o usuario digitar y para sair do programa entao o programa encerra senao o usuario e solicitado a fazer denovo.
+
+
+4 - primeiro crio as variaveis, crio um condicao, enquanto ouver tentativas o usuario deve escolher um numero de 1 a 100, se o numero for igual ao numero secreto entao o usuario vence o jogo, se for menor ele da uma dica que e maior, se for maior ele da uma dica que e menor
