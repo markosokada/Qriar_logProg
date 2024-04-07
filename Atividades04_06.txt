@@ -1,0 +1,65 @@
+
+dexa o lobo e a couve e leva o carneiro
+volta sozinho
+leva o lobo  e deixa o couve e o carneiro esta do outro labo
+volta com o carneiro pega a couve e leva para o mesmo lado do lobo
+volta sozinho
+pega o carneiro e atravessa.
+
+1)(lobo, carneiro , couve)-----------------()
+2)(lobo,couve) -----------(carneiro)->----------------()
+3)(lobo,couve) ---------------------------(carneiro)
+4)(lobo,couve) ------------<-()--------------(carneiro)
+5)(couve) -------------(lobo)-->------------(carneiro)
+6)(couve) ------------<-(carneiro)--------------(lobo)
+7)(carneiro)-----(couve)->-----------(lobo)
+7)(carneiro)--------<-()------------(lobo,couve)
+8)()----------(carneiro)->-----------(lobo,couve)
+9)()---------------------(lobo,couve,carneiro)
+
+
+variavel numero recebe randon number primo
+
+
+informe qualo numero deseja testar
+
+entra no laco de repeticao.
+	imprime voce tem "x" tentativas
+	entra no condicional
+	se  numero digitado for  igual ao num
+	imprime: parabens sacertou o numero
+	se nao 
+	imprime tente de novo
+	imprime: numero digitado  - numero
+	fim se
+
+	numero de tentat⁭ivas++	
+
+testar se o numero é negativo 
+	se sim
+		escreva(informe um numero)
+		leia(numero)
+		enquanto (numero>0) faca
+		escreva(numero)
+		numero=numero-1
+		fimenquanto
+	se nao 
+		escreva("numero negativo") 
+
+
+
+calculadora Fatorial
+1)programa pede para o usuario informa um numero, em seguida o programa armazena o numero informado na variavel numero
+2)no laco de repetição
+contador decrementa a cada interação
+3)programa escreve numero-contador
+fatoril recebe numero*numero-1
+
+
+conversor de temparatura
+1)programa pede para o usuario informa qual sera o tipo de conversao, 
+2)em seguida pede para informar os graus
+3)entao coloca na tela oresultado
+4)por final ele pegunta se pretende continuar ouencerrar
+
+
