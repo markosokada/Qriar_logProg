@@ -1,0 +1,115 @@
+1. Verificar Maior de Três Números:
+
+Escreva um programa que solicita três números ao usuário e, em seguida, exibe o
+maior deles. Use apenas instruções "if" para realizar essa comparação :
+
+                                      --/ /--
+
+Primeiro, cria-se as variáveis que representarão as entradas do usuário. Logo após, imprimo na tela as mensagens de entrada e os atribuo as variáveis. Depois disso, usando somente "se", comparo os numeros entre si com operadores matemáticos de "menor que" e "maior que" e dentre eles imprimo na tela o maior numero dentre os tres solicitados
+
+-----------------------------------------------------------------------------------------
+
+2. Classificar Idade:
+
+Crie um programa que pede ao usuário para inserir sua idade e, com base nela,
+imprime uma mensagem informando se a pessoa é criança, adolescente, adulto ou
+idoso.
+
+                                    --/ /--
+
+Primeiro, cria-se a variavel que receberá como entrada um numero que representará a idade de uma pessoa. Após isso, imprimo uma mensagem que solicitara a entrada do usuario e o atribuo a variavel. Com condicoes "se" faco associacoes logicas com operadores matematicos "maior que"  e "menor que" atribuindo uma mensagem informando ao usuario sua respectiva faixa-etaria. Por exemplo, se o usuario fornecer uma entrada dizendo que possui 18 anos, a associacao logica seria comparar a sua idade com uma faixa-etaria maior que 12 e menor que 19.
+
+Outra observacao importante é assegurar se o usuario fornecerá uma idade válida, para isso eu posso usar "while"
+-----------------------------------------------------------------------------------------
+
+3. Anos Bissexto
+
+Peça ao usuário para inserir um ano e, em seguida, verifique se esse ano é bissexto
+ou não. Um ano bissexto é aquele que é divisível por 4, exceto pelos anos que são
+divisíveis por 100 e não são divisíveis por 400.
+
+
+                                     --/ /--
+
+Criando uma variavel, peço ao usuario que insira o ano em um formato válido, por exemplo, tendo em mente que nao existem anos negativos devo evitar que meu programa faca qualquer coisa com este tipo de entrada, para isso crio um "while" ate que o usuario insira um ano com um formato valido. Usando "SE-SENAO", se e o ano for divisivel por 4 e nao por 100 ou divisivel por 400 entao imprimo na tela que o ano é bissexto; caso o contrário, imprimo na tela ao usuario que o ano nao é bissexto	 
+
+-----------------------------------------------------------------------------------------
+
+4. Calcular Média Ponderada
+
+• Escreva um programa que pede ao usuário para inserir três notas (cada uma de 0 a 10) e os pesos correspondentes de cada nota. Em seguida, calcule e exiba a média ponderada. Por
+exemplo, se as notas forem 7, 8 e 9, com pesos de 2, 3 e 5 respectivamente, a média
+ponderada seria ((72) + (83) + (9*5)) / (2 + 3 + 5).
+
+                                       --/ /--
+
+Crio as 6 variaveis que representarao as notas do usuario e seus respectivos pesos. Depois, peço ao usuario que forneca as entradas e os atribuo as variaveis, a seguir jogo na formula fornecida no problema.
+
+-----------------------------------------------------------------------------------------
+
+5. Decidir Triângulo
+• Escreva um programa que pede ao usuário para inserir os comprimentos dos três
+lados de um triângulo e, em seguida, determine se o triângulo é equilátero (todos os
+lados iguais), isósceles (dois lados iguais) ou escaleno (nenhum lado igual).
+
+                                     --/ /--
+
+Crio as variaveis dos lados do triangulo. 
+Imprimo na tela uma mensagem pedindo ao usuario suas entradas
+Atribuo as entradas as variaveis
+Uso condicoes "se-senao" com operadores matematicos "igual" "diferente"
+De acordo com a situacao imprimo na tela qual o tipo de triangulo. 
+
+-----------------------------------------------------------------------------------------
+6. Contador de Números Pares e Ímpares:
+
+• Escreva um programa que solicita ao usuário um número inteiro positivo e, em
+seguida, use um loop "while" para contar e exibir quantos números pares e quantos
+números ímpares existem entre 1 e o número inserido.
+
+
+                                    --/ /--
+
+Crio as variaveis. Peco ao usuario que digite um numero inteiro. Tendo em mente que o numero deve ser valido crio um "while" para aceitar somentes numeros positivos. Depois, crio mais um "while" para verificar se o numero é par ou impar, para isso verifico se um numero é divisivel por 2 (par), caso o contrario impar.
+
+-----------------------------------------------------------------------------------------
+
+7. Adivinhe o Número:     ( !)
+
+• Crie um programa em que o computador gera aleatoriamente um número entre 1 e 100, e o
+usuário tem que adivinhar qual é esse número. Use um loop "while" para permitir que o
+usuário faça várias tentativas até acertar o número. O programa deve fornecer dicas
+indicando se o número é maior ou menor do que o palpite atual.
+
+                                 --/ /--
+
+Crio uma variavel  que representara o numero misterioso, apos isso faco nela uma atribuicao a um numero aleatorio ( no caso do Pseudo-codigo, usa-se randi). Peco ao usuario a entrada de dados. Uso um "se-senao" dentro "while" para verifica se o numero digitado e o mesmo que o digitado. 
+
+-----------------------------------------------------------------------------------------
+
+8. Gerador de Sequência de Fibonacci:
+
+• Escreva um programa que solicita ao usuário um número inteiro positivo e, em seguida, use um loop "while" para gerar e exibir a sequência de Fibonacci até o termo correspondente ao número inserido. A sequência de Fibonacci é uma série de números em que cada número é a soma dos dois números anteriores. Os primeiros dois números da sequência são 0 e 1. Por exemplo, se o usuário inserir o número 7, o programa deve exibir a sequência: 0, 1, 1, 2, 3, 5, 8.
+
+                                     --/ /--
+
+Primeiro crio a variavel que representara o numero inteiro. Imprimo na tela a mensagem de pedido de entrada de usuario, atribuo a variavel, e depois verifico se a entrada é um numero positivo ou nao com um "while". Depois crio os contadores que representarao os numeros anteriores e posteriores ao numero atual e sem seguda com o "while" faca atribuic
+oes com a respectiva matematica e imprimop na tela a sequencia
+------------------------------------------------------------------------------------------
+
+10. Soma de Dígitos de um Número:
+
+• Peça ao usuário para inserir um número inteiro positivo e, em seguida, use um loop "while" para calcular e exibir a soma dos dígitos desse número. Por exemplo, se o número inserido for 1234, a soma dos dígitos seria 1 + 2 + 3 + 4 = 10.
+
+                                       --/ /--
+
+---------------------------------------------------------------------------------------
+
+11. Numeros Inpares
+• Faça um programa, utilizando for, que peça para o usuário inserir um número N e mostre na tela todos os números ímpares até N.
+
+                                    --/ /--
+
+Peco ao usuario o numero e os atribuo a uma variavel que e crio. Depois usando for de 1 ate o numero digitado e imprimo na tela somente os impares
+
+------------------------------------------------------------------------------------------
