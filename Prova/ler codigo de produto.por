@@ -7,6 +7,7 @@ programa
 		inteiro i,codigo
 		inteiro divisor=0
 		real maior = 0
+		real teste = 0
 		real soma = 0
 		real preco[15]
 		escreva("------Sisteminha de cadastro deprodutos------","\n")
@@ -20,7 +21,8 @@ programa
 		soma=soma+preco[i]
 		divisor = divisor +1
 		
-		maior = Matematica.maior_numero(preco[i], preco[i+1])
+		teste = Matematica.maior_numero(preco[i], preco[i+1])
+		maior = Matematica.maior_numero(preco[i], maior)
 		}
 		escreva(soma/divisor,"\n")
 		escreva(maior,"\n")
