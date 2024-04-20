@@ -9,7 +9,7 @@ programa
 		real maior = 0
 		real teste = 0
 		real soma = 0
-		real preco[15]
+		real preco[16]
 		escreva("------Sisteminha de cadastro deprodutos------","\n")
 		para (i =0 ; i<15 ; i++)
 		{
